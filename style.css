@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background:rgb(8, 190, 160);
+    margin:auto;
+    position:fixed;
+    display: flex;
+    left:0;
+    right:0;
+    top:0;
+    z-index:999;
+    height:40px;
+    justify-content: space-between;
+}
+nav ul{
+    list-style:none;
+    margin-top: 10px;
+}
+
+nav ul li a{
+    background:#fff;
+    padding:6px 8px;
+    font-size:16px;
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+    border-radius:5px;
+    margin: 0;
+}
+nav ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+.headerRight{
+    margin: 0;
+    height: 40px;
+    background-color: rgb(8, 190, 160);
+    vertical-align:middle;
+}
+.socialButtons{
+    float:right;
+    padding-top:8px;
+    padding-right: 40px;
+}
+.socialButtons a{
+    display:inline-block;
+    cursor:pointer;
+    background:#0570e6;
+    padding:2px;
+    width:33px;
+    text-align:center;
+    height:15px;
+    font-weight:bold;
+    color:#FFF;
+    text-decoration:none;
+    line-height:20px;
+    font-size:20px;
+    border-radius:5px;
+    vertical-align:middle;
+}
+.socialButtons a.linkedin{
+    background:#24568e;
+}
+.socialButtons a.google{
+    background:#c00;
+}
+.socialButtons a svg{
+    width:16px;
+    height:16px;
+    fill:#FFF;
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.pelement{
+    background-color: black;
+    width: 190px;
+    height: 110px;
+    color: white;
+    text-align: center;
+    margin-left: 9px;
+    padding: 20px;
+}
+.extra{
+    background-color: black;
+    width: 230px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 9px;
+    font-weight: bold;
+}
+.aside{
+    background-color: rgb(8, 190, 160);
+    width: 250px;
+  
+}
+.main{
+    padding-left: 25px;
+    width: 700px;
+}
+h1{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+hr{
+    border-top: 1px dashed black;
+}
+.notification{
+    background-color: black;
+    color: white;
+    padding: 20px 20px 20px 80px;
+    font-size: 12px;
+    width: 650px;
+    position: relative;
+    right: 25px;
+    text-align: right;
+}
+.a2{
+    color: white;
+    position: relative;
+    
+}
